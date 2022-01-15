@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Raleway:ital,wght@0,300;1,300&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1{
+    color: #252525;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.italic{
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+.intro{
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px 20%;
+
+}
+
+.line{
+    width: 40px;
+    height: 1px;
+    background-color: #252525;
+    margin: 0px auto;
+}
+
+.linefooter{
+    width: 1170px;
+    height: 1px;
+    background-color: #252525;
+    margin: 0px auto;
+}
+
+.navlink{
+    text-decoration: none;
+    color: #7a7a7a;
+    letter-spacing: 2px;
+    padding: 32px;
+    font-size: 15px
+}
+
+.navlink:hover{
+    text-decoration: underline;
+    color: #5ed9e7;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+}
+
+nav{
+    margin-left: 0px;
+}
+
+footer{
+    color: #7a7a7a;
+}
+
+.footerlink{
+    text-decoration: none;
+    color: #5ed9e7;
+}
+.footerlink:hover{
+    text-decoration: underline;
+    color: #5ed9e7;
+}
+
+.footerico{
+    float: left;
+    padding: 10px;
+}
+
+.imgcontain{
+    margin: 120px auto;
+    overflow: clip;
+}
