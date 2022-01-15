@@ -16,6 +16,10 @@ h1{
     letter-spacing: 2px;
 }
 
+h3{
+    border-bottom: 1px solid #252525;
+}
+
 .italic{
     font-family: 'Playfair Display', serif;
 }
@@ -92,4 +96,26 @@ footer{
 .imgcontain{
     margin: 120px auto;
     overflow: clip;
+}
+
+.textbox{
+    border: 1px solid #dbdbdb;
+    padding: 25px 25px;
+    min-height: 374px;
+    position: relative;
+    margin: 15px 0px;
+    text-align: left;
+}
+
+.textbox p{
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.textboxcontainer{
+    display: inline-flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 120px;
 }
