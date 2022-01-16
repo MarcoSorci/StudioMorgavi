@@ -105,11 +105,12 @@ footer{
 
 .textbox{
     border: 1px solid #dbdbdb;
-    padding: 25px 25px;
+    padding: 25px;
     min-height: 374px;
     position: relative;
-    margin: 15px 0px;
     text-align: left;
+    float: left;
+    width: 330px;
 }
 
 .textbox p{
@@ -119,8 +120,14 @@ footer{
 }
 
 .textboxcontainer{
-    display: inline-flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    display: block;
+    margin-left: 16%;
+    margin-right: 16%;
     margin-bottom: 120px;
+    overflow: hidden;
+}
+
+.imgbox{
+    width: 370px;
+    height: 372px;
 }
