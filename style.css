@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Raleway:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Raleway:ital,wght@0,300;0,500;1,300&display=swap');
 
 body{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 85px 4%;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -40,6 +38,7 @@ header{
     margin-left: 50px;
     margin-right: 50px;
     padding: 50px 20%;
+    font-weight: 300;
 
 }
 
@@ -51,10 +50,11 @@ header{
 }
 
 .linefooter{
-    width: 1170px;
+    width: 70%;
     height: 1px;
     background-color: #252525;
     margin: 0px auto;
+    overflow: hidden;
 }
 
 .navlink{
@@ -62,7 +62,8 @@ header{
     color: #7a7a7a;
     letter-spacing: 2px;
     padding: 32px;
-    font-size: 15px
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .navlink:hover{
@@ -82,6 +83,15 @@ nav{
 
 footer{
     color: #7a7a7a;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footertext{
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    letter-spacing: 1px;
+    line-height: 26px;
 }
 
 .footerlink{
@@ -93,8 +103,14 @@ footer{
     color: #5ed9e7;
 }
 
-.footerico{
+.footericocontainer{
     float: left;
+    padding: 10px;
+    position: absolute;
+    margin-left: 13.5%;
+}
+
+.footerico{
     padding: 10px;
 }
 
@@ -111,6 +127,9 @@ footer{
     text-align: left;
     float: left;
     width: 330px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .textbox p{
