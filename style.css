@@ -37,7 +37,7 @@ header{
     letter-spacing: 1px;
     margin-left: 50px;
     margin-right: 50px;
-    padding: 50px 20%;
+    padding: 50px 24%;
     font-weight: 300;
 
 }
@@ -55,6 +55,14 @@ header{
     background-color: #252525;
     margin: 0px auto;
     overflow: hidden;
+}
+
+.navseparator{
+    height: 2px;
+    background-color: #dfdfdf;
+    width: 37px;
+    display: inline-block;
+    border: 0px;
 }
 
 .navlink{
